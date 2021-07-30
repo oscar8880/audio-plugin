@@ -5,7 +5,7 @@ import { AudioPlayerError } from "@twilio/flex-ui";
 import { AudioPlayerManager } from "@twilio/flex-ui";
 import { Howl } from "howler";
 
-const CustomTaskList = () => {
+const AudioBar = () => {
   const playAudioManagerSound = () => {
     AudioPlayerManager.play(
       {
@@ -36,4 +36,4 @@ const CustomTaskList = () => {
   );
 };
 
-export default CustomTaskList;
+export default AudioBar;
