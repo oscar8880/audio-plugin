@@ -21,14 +21,11 @@ const CustomTaskList = () => {
   const playHowlerSound = () => {
     var sound = new Howl({
       src: "https://cicct-flex-plugin-core-9515-production.twil.io/auto-answer-chime.mp3",
-      sprite: {
-        intro: [0, 20000],
-      },
       autoplay: false,
       loop: false,
       html5: true,
     });
-    sound.play("intro");
+    sound.play();
   };
 
   return (
